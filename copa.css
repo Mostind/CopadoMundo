@@ -108,3 +108,9 @@ header{
         opacity: 1;
     }
 }
+
+@media (min-width: 400px){
+    #cards{
+        flex-direction: row;
+    }
+}
