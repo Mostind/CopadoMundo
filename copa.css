@@ -94,8 +94,10 @@ header{
     transition: transform 0.3s;
 }
 .card {
-    animation: apper 2.1s;
+    opacity: 0;
+    animation: apper 2.1s forwards;
 }
+
 @keyframes apper {
     0% {
         transform: translateY(-50px);

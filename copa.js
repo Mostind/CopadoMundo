@@ -7,9 +7,10 @@ function createGame(player1,hour,player2){
 </li>
     `
 }
-
+let delay = -0.4;
 function createCard(date, day,games){
-    return `<div class="card">
+    delay = delay + 0.4;
+    return `<div class="card" style="animation-delay:${delay}">
     <h2>${date} <span>${day}</span></h2>
     
         <ul>
